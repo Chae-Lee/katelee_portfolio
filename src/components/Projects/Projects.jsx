@@ -7,4 +7,14 @@
 [ ] Link to the GitHub repository
 [ ] GIF or screenshot of the deployed application */
 
-import React from 'react';
+import React from "react";
+
+function Projects() {
+  return (
+    <div>
+      <p>Hello this is Projects section</p>
+    </div>
+  );
+}
+
+export default Projects;

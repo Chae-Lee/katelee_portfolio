@@ -12,16 +12,10 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="homePage">
-      <img
-        src={profilePicture}
-        id="profilePhoto"
-        alt="Profile Picture"
-        style={{ height: 425, width: 300 }}
-      />
+      <img src={profilePicture} id="profilePhoto" alt="Profile Picture" />
       <div>
-        <p id="personalIntro">
-          This is the Home Page where my profile picture and intro will display
-        </p>
+        <p id="name"> Kate C Lee </p>
+        <p id="personalIntro">Frontend Web Developer</p>
       </div>
     </div>
   );

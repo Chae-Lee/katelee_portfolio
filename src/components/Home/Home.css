@@ -4,18 +4,32 @@
   justify-content: center;
   height: 100vh;
   flex-direction: column;
-};
+}
 
 #profilePhoto {
-  border-radius: 50%;
-  height:200px;
-  width: 200px;
+  height:440px;
+  width: 300px;
+  border-radius: 40%;
+  box-shadow: 2px 2px 8px #000000;
+}
+
+#name {
+  display: block;
+  color: white;
+  font-size: 30px;
+  margin-top: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
 
 }
 
 #personalIntro {
   display: block;
   color: white;
-  font-size: 20px;
-  margin-top: 30px;
+  font-size: 25px;
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
 }

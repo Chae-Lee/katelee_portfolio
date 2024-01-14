@@ -1,0 +1,21 @@
+.homePage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+};
+
+#profilePhoto {
+  border-radius: 50%;
+  height:200px;
+  width: 200px;
+
+}
+
+#personalIntro {
+  display: block;
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+}

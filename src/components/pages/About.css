@@ -1,12 +1,12 @@
 .aboutMe {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  height: 60vh;
+  height: 150px;
   padding-left: 100px;
   padding-right: 100px;
-  background-color: #FFE5B4;
+  background-color: #fde2e4;
   font-size: 20px;
 }
 
@@ -21,7 +21,8 @@
   border: 2px solid #BEBFC5;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #DBD7D2;
+  background-color: #dfe7fd;
   box-shadow: 2px 2px 4px #000000;
   border-radius: 30px;
+  align-items: flex-start;
 }

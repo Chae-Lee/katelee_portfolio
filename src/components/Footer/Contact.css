@@ -1,0 +1,17 @@
+.contactContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 20vh;
+  flex-direction: row;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #fde2e4;
+}
+
+.logo {
+  font-size: 30px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  color: blueviolet;
+}

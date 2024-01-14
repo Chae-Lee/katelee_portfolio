@@ -5,9 +5,9 @@ import "./App.css";
 import Header from "./components/Navbar/Header";
 import Home from "./components/Home/Home";
 import About from "./components/pages/About";
+import Contact from "./components/Footer/Contact";
 // import ProjectGallery from "./components/pages/ProjectGallery";
 // import Skills from "./components/pages/Skills";
-// import Contact from "./components/Footer/Contact";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -20,6 +20,7 @@ function App() {
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <Home />
       <About />
+      <Contact />
       {/* <ProjectGallery />
       <Skills />
       <Contact /> */}

@@ -1,4 +1,5 @@
 import React from "react";
+import "./Header.css";
 
 function Header(props) {
   return (
@@ -11,7 +12,7 @@ function Header(props) {
             props.currentPage === "Home" ? "nav-link active" : "nav-link"
           }
         >
-          Home
+          <i className="bi bi-house-door text-dark"></i>
         </a>
       </li>
       <li className="nav-item">
@@ -21,6 +22,7 @@ function Header(props) {
           className={
             props.currentPage === "AboutMe" ? "nav-link active" : "nav-link"
           }
+          id="aboutTab"
         >
           About Me
         </a>
@@ -32,6 +34,7 @@ function Header(props) {
           className={
             props.currentPage === "Skills" ? "nav-link active" : "nav-link"
           }
+          id="skillsTab"
         >
           Skills
         </a>
@@ -43,6 +46,7 @@ function Header(props) {
           className={
             props.currentPage === "Projects" ? "nav-link active" : "nav-link"
           }
+          id="projectsTab"
         >
           Projects
         </a>

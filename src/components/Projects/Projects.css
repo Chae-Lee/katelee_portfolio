@@ -1,0 +1,24 @@
+#projectImage {
+  height:280px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #fde2e4;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card {
+  margin-top: 20px;
+  background-color: #dfe7fd;
+  box-shadow: 2px 2px 4px #000000;
+  border-radius: 30px;
+}

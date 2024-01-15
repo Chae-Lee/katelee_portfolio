@@ -18,9 +18,9 @@ function Header(props) {
       <li className="nav-item">
         <a
           href="#about"
-          onClick={() => props.handlePageChange("AboutMe")}
+          onClick={() => props.handlePageChange("About")}
           className={
-            props.currentPage === "AboutMe" ? "nav-link active" : "nav-link"
+            props.currentPage === "About" ? "nav-link active" : "nav-link"
           }
           id="aboutTab"
         >

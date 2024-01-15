@@ -6,6 +6,7 @@ import Header from "./components/Navbar/Header";
 import Home from "./components/Home/Home";
 import About from "./components/pages/About";
 import Contact from "./components/Footer/Contact";
+import Skills from "./components/pages/Skills";
 // import ProjectGallery from "./components/pages/ProjectGallery";
 // import Skills from "./components/pages/Skills";
 
@@ -15,15 +16,24 @@ function App() {
     setCurrentPage(page);
   };
 
+  const renderPage = () => {
+    if (currentPage === "Home") {
+      return <Home />;
+    } else if (currentPage === "About") {
+      return <About />;
+    } else if (currentPage === "Skills") {
+      return <Skills />;
+      // } else if (currentPage === "ProjectGallery") {
+      //   return <ProjectGallery />;
+      // }
+    }
+  };
+
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      <Home />
-      <About />
+      {renderPage()}
       <Contact />
-      {/* <ProjectGallery />
-      <Skills />
-      <Contact /> */}
     </div>
   );
 }

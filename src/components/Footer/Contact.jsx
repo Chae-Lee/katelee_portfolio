@@ -3,8 +3,8 @@
 [ ] Have a contact form for handling events */
 
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import * as bootstrap from "bootstrap";
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import * as bootstrap from "bootstrap";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./Contact.css";
 

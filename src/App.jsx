@@ -9,6 +9,7 @@ import Footer from "./components/Footer/Footer";
 import Skills from "./components/pages/Skills";
 import Projects from "./components/Projects/Projects";
 import projectData from "./projects.json";
+import Contact from "./components/pages/Contact";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -17,11 +18,6 @@ function App() {
   };
 
   const [projects, setProjects] = useState(projectData);
-
-  const removeProjects = (id) => {
-    const newProjects = projects.filter((projects) => projects.id !== id);
-    setProjects(newProjects);
-  };
 
   const renderPage = () => {
     if (currentPage === "Home") {
@@ -40,6 +36,8 @@ function App() {
           link={projects.link}
         />
       ));
+    } else if (currentPage === "Contact") {
+      return <Contact />;
     }
   };
 

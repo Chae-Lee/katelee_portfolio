@@ -7,6 +7,11 @@
   background-color: #fde2e4;
 }
 
+#homeContainer {
+  padding-top: 20px;
+  height:90vh;
+}
+
 #profilePhoto {
   height:440px;
   width: 300px;
@@ -34,3 +39,4 @@
   text-align: center;
   text-shadow: 2px 2px 4px #000000;
 }
+

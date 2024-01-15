@@ -5,8 +5,8 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="homePage">
-      <img src={profilePicture} id="profilePhoto" alt="Profile Picture" />
-      <div>
+      <div id="homeContainer">
+        <img src={profilePicture} id="profilePhoto" alt="Profile Picture" />
         <p id="name"> Kate C Lee </p>
         <p id="personalIntro">Frontend Web Developer</p>
       </div>

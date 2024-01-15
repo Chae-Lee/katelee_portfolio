@@ -5,7 +5,7 @@ import "./App.css";
 import Header from "./components/Navbar/Header";
 import Home from "./components/Home/Home";
 import About from "./components/pages/About";
-import Contact from "./components/Footer/Contact";
+import Footer from "./components/Footer/Footer";
 import Skills from "./components/pages/Skills";
 import Projects from "./components/Projects/Projects";
 import projectData from "./projects.json";
@@ -47,7 +47,7 @@ function App() {
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-      <Contact />
+      <Footer />
     </div>
   );
 }

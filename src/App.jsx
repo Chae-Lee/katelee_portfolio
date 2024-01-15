@@ -9,7 +9,6 @@ import Contact from "./components/Footer/Contact";
 import Skills from "./components/pages/Skills";
 import Projects from "./components/Projects/Projects";
 import projectData from "./projects.json";
-// import ProjectGallery from "./components/pages/ProjectGallery";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Home");

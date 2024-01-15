@@ -5,11 +5,11 @@ const Skills = () => {
   return (
     <div className="skills">
       <div className="skillsContainer">
-        <h3 id="skillsTitle">Technical Skills</h3>
+        <h3 id="skillsTitle"> Technical Skills </h3>
         <p>
           {" "}
-          The following skill will be gained through the Frontend Web
-          Development bootcamp:{" "}
+          The following skill gained through the Frontend Web Development
+          bootcamp:{" "}
         </p>
         <li>HTML, CSS, and JavaScript</li>
         <li>Bootstrap, JQuery, JSON </li>

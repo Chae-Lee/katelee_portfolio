@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Whisked Wonders Recipe App",
+    "image": "./assets/images/bakery-2.jpeg",
+    "description": "Application that displays a landing page which allows users to search of recipes or locations of bakeries. This application runs in the browser and features dynamically updated HTML and CSS that is powered by JavaScript code.",
+    "link": "https://chae-lee.github.io/whisked-wonders/"
+  },
+  {
+    "id": 2,
+    "title": "Coding Quiz Challenge",
+    "image": "./assets/images/coding-quiz-landingpage.png",
+    "description": "Command-line app using Node.js for automated README file generation. Dynamic prompts collect project details, streamlining documentation.",
+    "link": "https://chae-lee.github.io/coding-quiz/"
+  },
+  {
+    "id": 3,
+    "title": "README generator",
+    "image": "./assets/images/readme-generator-screenshot.png",
+    "description": "Interactive quiz app that runs in the browser and features dynamically updated HTML and CDD that is powered by JavaScript code. Features timed questions, score tracking, and dynamic rendering.",
+    "link": "https://github.com/Chae-Lee/readme-generator"
+  },
+  {
+    "id": 4,
+    "title": "Password generator",
+    "image": "./assets/images/password-generator.png",
+    "description": "JavaScript application that can be used to generate a random password in the browser. This application runs in the browser and features dynamically updated HTML and CSS that is powered by JavaScript code.",
+    "link": "https://chae-lee.github.io/password-generator/"
+  },
+  {
+    "id": 5,
+    "title": "Team Profile generator",
+    "image": "./assets/images/teamprofile-generator-screenshot.png",
+    "description": "Command-line application that takes in information about employees from a software engineering team, then generates an HTML webpage that displays summaries for each person. Code is written to dynamically generate a HTML file using the user input to generate a webpage that displays the teams basic information so that a user have quick access to their emails and Github profiles.",
+    "link": "https://chae-lee.github.io/team-profile-generator/"
+  }
+]

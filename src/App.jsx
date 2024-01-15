@@ -1,6 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Navbar/Header";
 import Home from "./components/Home/Home";
@@ -42,11 +43,11 @@ function App() {
   };
 
   return (
-    <div>
+    <Router>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />
-    </div>
+    </Router>
   );
 }
 

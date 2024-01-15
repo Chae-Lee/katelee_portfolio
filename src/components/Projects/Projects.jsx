@@ -19,7 +19,7 @@ function Projects(props) {
             </p>
             <p>
               <a href={props.link}>
-                <button>Click to view project</button>
+                <button id="button">Click to view project</button>
               </a>
             </p>
           </ul>

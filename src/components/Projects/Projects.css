@@ -20,5 +20,17 @@
   margin-top: 20px;
   background-color: #dfe7fd;
   box-shadow: 2px 2px 4px #000000;
-  border-radius: 30px;
+  border-radius: 40px;
+  width: 110vh;
+}
+
+.content {
+  margin-right: 20px;
+  text-align: center;
+}
+
+#button {
+  background-color: #cddafd;
+  border-radius: 15px;
+  padding: 10px 10px 10px 10px;
 }

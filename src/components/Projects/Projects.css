@@ -19,7 +19,7 @@
 .card {
   margin-top: 20px;
   background-color: #dfe7fd;
-  box-shadow: 2px 2px 4px #000000;
+  box-shadow: 2px 2px 4px #778da9;
   border-radius: 40px;
   width: 110vh;
 }
@@ -33,4 +33,5 @@
   background-color: #cddafd;
   border-radius: 15px;
   padding: 10px 10px 10px 10px;
+  box-shadow: 2px 2px 4px #778da9;
 }

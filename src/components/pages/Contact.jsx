@@ -5,12 +5,12 @@ import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
 const Contact = () => {
-  const [contactData, setContactData] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    message: "",
-  });
+  // const [contactData, setContactData] = useState({
+  //   firstName: "",
+  //   lastName: "",
+  //   email: "",
+  //   message: "",
+  // });
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
@@ -22,9 +22,8 @@ const Contact = () => {
   };
 
   const handleFormSubmit = (event) => {
-    event.preventDefault();
     alert(
-      `Hello ${contactData.firstName} ${contactData.lastName}. Your message has been sent to Kate.`
+      `Hi, thank you for your message! Your message has been sent to Kate.`
     );
   };
 
@@ -47,76 +46,38 @@ const Contact = () => {
 
   return (
     <div>
-      <p className="formTitle">Contact Me</p>
-      <form ref={form} onSubmit={sendEmail}>
-        <input
-          className="form"
-          name="name"
-          type="text"
-          placeholder="Enter your full name"
-          onChange={handleInputChange}
-        ></input>
-        <input
-          className="form"
-          type="email"
-          name="email"
-          placeholder="Your Email Address"
-          onChange={handleInputChange}
-        />
-        <label>Message</label>
-        <textarea name="message" />
-        <input
-          className="form"
-          type="submit"
-          value="Send"
-          placeholder="Type your message here"
-          onChange={handleInputChange}
-        />
-      </form>
+      <div className="formContainer">
+        <p className="formTitle">Contact Me</p>
+        <form ref={form} onSubmit={sendEmail}>
+          <input
+            className="form"
+            name="name"
+            type="text"
+            placeholder="Enter your full name"
+            onChange={handleInputChange}
+          ></input>
+          <input
+            className="form"
+            type="email"
+            name="email"
+            placeholder="Your Email Address"
+            onChange={handleInputChange}
+          />
+          <textarea
+            className="form"
+            name="message"
+            placeholder="Type your message here"
+            onChange={handleInputChange}
+          />
+          <input
+            className="formButton"
+            type="submit"
+            value="Send"
+            onClick={handleFormSubmit}
+          />
+        </form>
+      </div>
     </div>
-  );
-  // Different format form 
-  // return (
-  //   <div className="formContainer">
-  //     <p className="formTitle">Contact Me</p>
-  //     <form ref={form} onSubmit={sendEmail}>
-  //       <input
-  //         className="form"
-  //         value={contactData.firstName}
-  //         name="name"
-  //         onChange={handleInputChange}
-  //         type="text"
-  //         placeholder="Enter your full name"
-  //       ></input>
-  //       <input
-  //         className="form"
-  //         value={contactData.lastName}
-  //         name="lastName"
-  //         onChange={handleInputChange}
-  //         type="text"
-  //         placeholder="Last Name"
-  //       ></input>
-  //       <input
-  //         className="form"
-  //         value={contactData.email}
-  //         name="email"
-  //         onChange={handleInputChange}
-  //         type="text"
-  //         placeholder="Your Email Address"
-  //       ></input>
-  //       <input
-  //         className="form"
-  //         value={contactData.message}
-  //         name="message"
-  //         onChange={handleInputChange}
-  //         type="text"
-  //         placeholder="Type your message here"
-  //       ></input>
-  //       <button className="button" type="button" onClick={handleFormSubmit}>
-  //         Submit
-  //       </button>
-  //     </form>
-  //   </div>
   );
 };
 

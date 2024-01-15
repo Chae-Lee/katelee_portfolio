@@ -7,13 +7,21 @@ import Home from "./components/Home/Home";
 import About from "./components/pages/About";
 import Contact from "./components/Footer/Contact";
 import Skills from "./components/pages/Skills";
+import Projects from "./components/Projects/Projects";
+import projectData from "./projects.json";
 // import ProjectGallery from "./components/pages/ProjectGallery";
-// import Skills from "./components/pages/Skills";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Home");
   const handlePageChange = (page) => {
     setCurrentPage(page);
+  };
+
+  const [projects, setProjects] = useState(projectData);
+
+  const removeProjects = (id) => {
+    const newProjects = projects.filter((projects) => projects.id !== id);
+    setProjects(newProjects);
   };
 
   const renderPage = () => {
@@ -23,9 +31,16 @@ function App() {
       return <About />;
     } else if (currentPage === "Skills") {
       return <Skills />;
-      // } else if (currentPage === "ProjectGallery") {
-      //   return <ProjectGallery />;
-      // }
+    } else if (currentPage === "Projects") {
+      return projects.map((projects) => (
+        <Projects
+          id={projects.id}
+          title={projects.title}
+          image={projects.image}
+          description={projects.description}
+          link={projects.link}
+        />
+      ));
     }
   };
 

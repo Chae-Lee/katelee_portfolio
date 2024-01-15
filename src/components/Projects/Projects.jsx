@@ -8,11 +8,27 @@
 [ ] GIF or screenshot of the deployed application */
 
 import React from "react";
+import "./Projects.css";
 
-function Projects() {
+function Projects(props) {
   return (
-    <div>
-      <p>Hello this is Projects section</p>
+    <div className="card">
+      <div className="img-container">
+        <img alt={props.title} src={props.image} />
+      </div>
+      <div className="content">
+        <ul>
+          <li>
+            <strong>Project title: </strong> {props.title}
+          </li>
+          <li>
+            <strong>Description: </strong> {props.description}
+          </li>
+          <li>
+            <strong>Link: </strong> {props.link}
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

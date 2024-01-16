@@ -30,5 +30,3 @@ function Projects(props) {
 }
 
 export default Projects;
-
-import "../../../public/images";

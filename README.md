@@ -45,8 +45,8 @@
 <b> URL to the deployed Application </b>
 https://chae-lee.github.io/team-profile-generator/
 
-![Screenshots of portfolio page](./src/assets/images/home.png)
-![Screenshots of portfolio page](./src/assets/images/aboutMe.png)
-![Screenshots of portfolio page](./src/assets/images/skills.png)
-![Screenshots of portfolio page](./src/assets/images/projects.png)
-![Screenshots of portfolio page](./src/assets/images/contacts.png)
+![Screenshots of portfolio page](./public/images/home.png)
+![Screenshots of portfolio page](./public/images/aboutMe.png)
+![Screenshots of portfolio page](./public/images/skills.png)
+![Screenshots of portfolio page](./public/images/projects.png)
+![Screenshots of portfolio page](./public/images/contacts.png)

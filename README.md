@@ -43,7 +43,7 @@
 # The final deployed application should look like this
 
 <b> URL to the deployed Application </b>
-https://chae-lee.github.io/team-profile-generator/
+https://chae-lee.github.io/katelee_portfolio/
 
 ![Screenshots of portfolio page](./public/images/home.png)
 ![Screenshots of portfolio page](./public/images/aboutMe.png)

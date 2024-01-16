@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Whisked Wonders Recipe App",
-    "image": "/images/whiskedWonders.png",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a6/Pok%C3%A9mon_Pikachu_art.png",
     "description": "Application that displays a landing page which allows users to search of recipes or locations of bakeries. This application runs in the browser and features dynamically updated HTML and CSS that is powered by JavaScript code.",
     "link": "https://chae-lee.github.io/whisked-wonders/"
   },

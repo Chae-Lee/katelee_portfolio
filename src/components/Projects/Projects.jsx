@@ -3,6 +3,7 @@ import "./Projects.css";
 import { Link } from "react-router-dom";
 
 function Projects(props) {
+  console.log(props.image);
   return (
     <div className="projects">
       <div className="card">
